@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="android:colorPrimary">@color/theme_primary</item>
+        <item name="android:colorPrimaryDark">@color/theme_primary_dark</item>
+    </style>
+
+    <style name="Theme.Bacon" parent="AppTheme">
+    </style>
+
+    <style name="Theme.Bacon.Detail" parent="Theme.Bacon">
+        <item name="android:statusBarColor">@android:color/holo_red_light</item>
+        <item name="android:toolbarStyle">@android:color/holo_red_dark</item>
+    </style>
+
+    <!-- main activity action bar styles -->
+    <style name="ActionBar.Solid.XYZ.NoTitle" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="displayOptions">useLogo|showHome</item>
+        <item name="logo">@drawable/logo</item>
+    </style>
+</resources>
